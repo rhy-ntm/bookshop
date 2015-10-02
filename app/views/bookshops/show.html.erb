@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Isbn:</strong>
+  <%= @bookshop.isbn %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @bookshop.title %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @bookshop.price %>
+</p>
+
+<p>
+  <strong>Publish:</strong>
+  <%= @bookshop.publish %>
+</p>
+
+<p>
+  <strong>Published:</strong>
+  <%= @bookshop.published %>
+</p>
+
+<p>
+  <strong>Cd:</strong>
+  <%= @bookshop.cd %>
+</p>
+
+<%= link_to 'Edit', edit_bookshop_path(@bookshop) %> |
+<%= link_to 'Back', bookshops_path %>
